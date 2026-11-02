@@ -91,8 +91,8 @@ window.siteHeaderHTML = `
                                 </a>
                             </div>
                         </div>
-                        <div class="mega-row row-8">
-                            <!-- Row 2: 8 Categories -->
+                        <div class="mega-row row-9">
+                            <!-- Row 2: 9 Categories -->
                             <div class="mega-item">
                                 <a href="stone-veneer.html">
                                     <img src="assets/img/categories/stone-veneer.jpg" alt="Stone Veneer">
@@ -142,6 +142,12 @@ window.siteHeaderHTML = `
                                     <span>Profile Doors</span>
                                 </a>
                             </div>
+                            <div class="mega-item">
+                                <a href="rope-molding.html">
+                                    <img src="assets/img/categories/rope-molding.png" alt="Rope Molding">
+                                    <span>Rope Molding</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -175,6 +181,7 @@ window.siteHeaderHTML = `
                     <a href="wpc-wall-panels.html">WPC Wall Panels</a>
                     <a href="wood-panels.html">Wood Panels</a>
                     <a href="profile-works.html">Profile Doors</a>
+                    <a href="rope-molding.html">Rope Molding</a>
                 </div>
             </div>
         </div>
@@ -201,6 +208,7 @@ window.siteHeaderHTML = `
                     <li><a href="wpc-wall-panels.html">WPC Wall Panels</a></li>
                     <li><a href="wood-panels.html">Wood Panels</a></li>
                     <li><a href="profile-works.html">Profile Doors</a></li>
+                    <li><a href="rope-molding.html">Rope Molding</a></li>
                 </ul>
             </div>
             <input type="text" placeholder="What are you looking for?">
@@ -256,6 +264,7 @@ window.siteFooterHTML = `
                 <li><a href="wpc-wall-panels.html">WPC Wall Panels</a></li>
                 <li><a href="wood-panels.html">Wood Panels</a></li>
                 <li><a href="profile-works.html">Profile Doors</a></li>
+                <li><a href="rope-molding.html">Rope Molding</a></li>
             </ul>
         </div>
         <div class="footer-col">

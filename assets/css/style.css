@@ -189,6 +189,12 @@ header {
     margin: 0 auto;
 }
 
+.mega-row.row-9 {
+    grid-template-columns: repeat(9, 1fr);
+    width: 90%;
+    margin: 0 auto;
+}
+
 .mega-item a {
     display: flex;
     flex-direction: column;
@@ -246,7 +252,8 @@ header {
         grid-template-columns: repeat(5, 1fr);
     }
 
-    .mega-row.row-8 {
+    .mega-row.row-8,
+    .mega-row.row-9 {
         grid-template-columns: repeat(4, 1fr);
         padding: 0;
     }
@@ -1277,6 +1284,12 @@ footer {
 .mega-row.row-8 {
     grid-template-columns: repeat(8, 1fr);
     width: 80%;
+    margin: 0 auto;
+}
+
+.mega-row.row-9 {
+    grid-template-columns: repeat(9, 1fr);
+    width: 90%;
     margin: 0 auto;
 }
 

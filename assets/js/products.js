@@ -129,6 +129,15 @@ const categorySpecs = {
         "Installation": "By Professional Interior Spot Team",
         "Sizes": "Custom Built / Site Fit",
         "Pricing": "On Request (Site Visit Required)"
+    },
+    "rope-molding": {
+        "heroDescription": "Architectural rope mouldings, beaded trims, and decorative fluted borders for luxury doors, walls, ceilings, and cabinetry.",
+        "Sizes": "32W, 52W",
+        "Profiles": "HR-01 to HR-15 (Twisted Rope, Beaded, Spindle, Spiral)",
+        "Brands": "SRH (Style & Revamp Your Home)",
+        "Materials": "High-Density Architectural Polymer / Wood Composite",
+        "Applications": "Door Frames, Architraves, Wall Panelling, Wardrobes, Cabinets",
+        "Pricing": "Enquire for Best Price"
     }
 };
 
@@ -346,7 +355,8 @@ const productData = [
     { id: 901, name: "Spectre WPC Louvers", category: "decoratives", url: "is-catalogue-spectre.html", image: "assets/product/galleries/catalogue-spectre/page_001.jpg", price: "Rs. 320.00 / sqft", description: "Premium Spectre WPC Louvers material." },
     { id: 902, name: "3D Customized Designs", category: "3d-designs", url: "is-catalogue-469-3d.html", image: "assets/product/galleries/catalogue-469-3d/page_001.jpg", price: "Rs. 300.00 / sqft", description: "Premium 3D Customized Designs material." },
     { id: 903, name: "Laminato Highlighters", category: "decoratives", url: "is-catalogue-laminato.html", image: "assets/product/galleries/catalogue-laminato/page_004.jpg", price: "Rs. 500.00 / sqft", description: "Premium Laminato Highlighters material." },
-    { id: 904, name: "KD Customized Mosaics", category: "mosaics", url: "is-catalogue-kd.html", image: "assets/product/galleries/catalogue-kd/page_003.jpg", price: "Rs. 600.00 - 4,000.00 / sqft", description: "Premium KD Customized Mosaics material." }
+    { id: 904, name: "KD Customized Mosaics", category: "mosaics", url: "is-catalogue-kd.html", image: "assets/product/galleries/catalogue-kd/page_003.jpg", price: "Rs. 600.00 - 4,000.00 / sqft", description: "Premium KD Customized Mosaics material." },
+    { id: 905, name: "SRH Rope Molding", category: "rope-molding", url: "srh-rope-molding.html", image: "assets/img/categories/rope-molding.png", price: "Enquire for Price", description: "Architectural decorative rope mouldings and trims in 32W & 52W widths. Features 15+ patterns including twisted rope, beaded borders, and fluted reliefs for doors, wardrobes, and walls." }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -359,6 +369,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (window.location.pathname.includes('flexible-panels.html')) {
         catFilter = 'flexible-panels';
+    }
+    if (window.location.pathname.includes('rope-molding.html')) {
+        catFilter = 'rope-molding';
     }
 
     const productGrid = document.querySelector('.product-grid');
@@ -895,6 +908,16 @@ document.addEventListener('DOMContentLoaded', () => {
             'sliding': 'slim-profile.html',
             'wardrobe': 'slim-profile.html',
             
+            // Rope Molding
+            'rope molding': 'rope-molding.html',
+            'rope moulding': 'rope-molding.html',
+            'rope mouldings': 'rope-molding.html',
+            'rope moldings': 'rope-molding.html',
+            'srh rope molding': 'srh-rope-molding.html',
+            'srh molding': 'srh-rope-molding.html',
+            'beaded molding': 'rope-molding.html',
+            'beaded moulding': 'rope-molding.html',
+
             // Newly added for daily picks
             'kd': 'is-catalogue-kd.html',
             'kd mosaics': 'is-catalogue-kd.html',
